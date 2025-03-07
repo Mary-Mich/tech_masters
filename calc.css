@@ -1,0 +1,40 @@
+
+body{
+max-height:none;
+width:none;
+display:flex;
+justify-content: center;
+align-items: center;
+font-family: sans-serif;
+}
+.calculatrice{
+    display :flex;
+    flex-direction:column ;
+    background-color:black;
+    border: 5px;
+    border-color: grey;
+    padding:15px ;
+    border-radius: 3px;
+}
+.ecran{
+    height: 80%;
+    width: 131px;
+    background-color:aliceblue;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    align-items: flex-end;
+    display: flex;
+    font-size: 25px;
+    padding: 20px;
+}
+.touche{
+   display:grid; 
+   grid-template-columns: repeat(4,40px);
+   grid-template-rows: repeat(5,50px);
+   background-color: black;
+   padding: 8px;
+}
+#equal{
+    grid-column: span 3;
+    background-color: chartreuse;
+}

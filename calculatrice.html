@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>calculatrice</title>
+</head>
+<body>
+  <div class="calculatrice">
+    <div class="ecran" id="result"></div>
+      <div class="touche">
+<button class="button 1" onclick="getValue(1)" >1</button>
+<button class="button 2 " onclick="getValue(2)">2</button> 
+<button class="button 3" onclick="getValue(3)">3</button> 
+<button class="button 4 " onclick="gestion('back')">back</button> 
+<button class="button 5" onclick="getValue(4)">4</button>  
+<button class="button 6" onclick="getValue(5)">5</button> 
+<button class="button 7" onclick="getValue(6)">6</button>   
+<button class="button 8" onclick="getValue('-')">-</button> 
+<button class="button 9" onclick="getValue(7)">7</button> 
+<button class="button 10" onclick="getValue(8)">8</button> 
+<button class="button 11" onclick="getValue(9)">9</button> 
+<button class="button 12" onclick="getValue('*')">*</button>
+<button class="button 13" onclick="getValue('.')">.</button> 
+<button class="button 14" onclick="getValue(0)">0</button> 
+<button class="button 15" onclick="getValue('/')">/</button>
+<button class="button 16" onclick="getValue('+')">+</button> 
+<button class="button 17" onclick="gestion('clear')">clear</button> 
+<button class="button 18" id="equal" onclick="solution()">=</button> 
+  </div>
+  </div>
+  <script src="calculatrice.js"></script>  
+</body>
+</html>

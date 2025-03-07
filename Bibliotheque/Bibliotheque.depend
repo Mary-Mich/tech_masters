@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1737728696 source:c:\users\marie michelle\documents\mes projets en c et c++\bibliotheque\main.c
+	<stdio.h>
+	<stdlib.h>
+	"projet.h"
+
+1737722350 c:\users\marie michelle\documents\mes projets en c et c++\bibliotheque\projet.h
+
+1737729151 source:c:\users\marie michelle\documents\mes projets en c et c++\bibliotheque\main1.c
+	<stdio.h>
+	<string.h>
+	"projet.h"
+
+1737730472 source:c:\users\marie michelle\documents\mes projets en c et c++\bibliotheque\menu.c
+	<stdio.h>
+	<string.h>
+	"projet.h"
+
